@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <div class="container">
+      <div></div>
+      <br />
+      <form action="">
+        <fieldset>
+          <legend>Saisissez les information suivant :</legend>
+          <table>
+            <tr>
+              <td>Entrez votre nom :</td>
+              <td>
+                <input type="text" name="nom" id="nom" />
+              </td>
+            </tr>
+            <tr>
+              <td>Entrez votre prénom :</td>
+              <td>
+                <input type="text" name="prenom" id="prenom" />
+              </td>
+            </tr>
+            <tr>
+              <td>Entrez votre mot de passe :</td>
+              <td>
+                <input type="password" name="password" id="password" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br />
+                Entrez votre sexe : <br />
+                <input
+                  type="radio"
+                  name="sexe"
+                  id="homme"
+                  value="homme"
+                /><label for="sexe"> Homme</label><br />
+
+                <input
+                  type="radio"
+                  name="sexe"
+                  id="femme"
+                  value="femme"
+                /><label for="sexe"> Femme</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br />
+                Vos loisirs : <br />
+                <input
+                  type="checkbox"
+                  name="loisir"
+                  id="sport"
+                  value="sport"
+                /><label for="loisir"> Sport</label>
+                <br />
+                <input
+                  type="checkbox"
+                  name="loisir"
+                  id="lecture"
+                  value="lecture"
+                /><label for="loisir"> Lecture</label>
+                <br />
+                <input
+                  type="checkbox"
+                  name="loisir"
+                  id="musique"
+                  value="musique"
+                /><label for="loisir"> Musique</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br />
+                Saisissez ici un commentaire : <br />
+                <textarea
+                  name="commentaire"
+                  id="comment"
+                  cols="40"
+                  rows="10"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" value="Envoyer" onclick="afficher();" />
+                <input type="reset" value="Recommencer" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

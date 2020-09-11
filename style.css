@@ -1,0 +1,58 @@
+.container {
+  width: 50%;
+  margin: 0 25% 0 25%;
+}
+legend {
+  color: deeppink;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: deeppink solid;
+  border-radius: 2px;
+  box-shadow: 2px 2px blue;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+  padding: 2px;
+  border: 3px solid blue;
+  box-shadow: 2px 2px deeppink;
+}
+
+label {
+  font-family: "Courier New", Courier, monospace;
+  color: deeppink;
+  font-weight: bold;
+}
+
+label:hover {
+  font-size: 1.4em;
+  text-decoration: underline blue;
+}
+
+input[type="button"],
+input[type="reset"] {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: dodgerblue;
+  border: solid 2px deeppink;
+  border-radius: 5px;
+}
+
+input[type="button"]:hover,
+input[type="reset"]:hover {
+  background: blue;
+}
+
+.cart {
+  width: 100%
+  background-color: #eee;
+  border: 5px solid deeppink;
+  box-shadow: 5px 5px blue;
+  font-family: "Courier New", Courier, monospace;
+  padding: 20px;
+}
