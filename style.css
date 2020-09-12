@@ -13,11 +13,12 @@ input[type="password"] {
   border: deeppink solid;
   border-radius: 2px;
   box-shadow: 2px 2px blue;
+  transition: 1s;
 }
 
 input[type="text"]:hover,
 input[type="password"]:hover {
-  padding: 2px;
+  transform: scale(1.2);
   border: 3px solid blue;
   box-shadow: 2px 2px deeppink;
 }
